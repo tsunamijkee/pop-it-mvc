@@ -1,0 +1,22 @@
+{
+    "name": "maximmaximich/pop-it-mvc",
+    "description": "Simple mvc freamwork",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maximmaximich",
+            "email": "maximmaximich@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
